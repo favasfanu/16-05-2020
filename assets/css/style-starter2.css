@@ -9940,7 +9940,7 @@ h4.sub-title {
     padding: 15px;
     
     background-attachment: fixed;
-    position: unset;
+    position: relative;
     height: 150px; } 
   .favas{
     display: none;
