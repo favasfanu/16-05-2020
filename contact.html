@@ -71,14 +71,18 @@ Author URL: http://w3layouts.com
             <div class="row cont-main-top">
                <!-- contact form -->
                <div class="contacts12-main col-lg-6 ">
-                <form action="mailto:muhammedfavas@gmail.com" method="GET" class="main-input">
+                <form action="mailto:muhammedfavas@gmail.com" method="post" class="main-input" enctype="text/plain">
                     <div class="top-inputs d-grid">
-                        <input type="text" placeholder="Name" name="w3lName" id="w3lName" required="">
+                        <input type="text" placeholder="Name" name="Name" id="w3lName" required="">
                        
                     </div>
-                    <input type="email" name="email" placeholder="Email" id="w3lSender" required="">
+                  <div class="top-inputs d-grid">
+                      <input type="phone" name="Mobile Number" placeholder="Mobile Number(Optional))" >
+                     
+                  </div>
+                    <input type="email" name="Email" placeholder="Email" id="w3lSender" required="">
                    
-                    <textarea placeholder="Message" name="w3lMessage" id="w3lMessage" required=""></textarea>
+                    <textarea placeholder="Message" name="Message" id="w3lMessage" required=""></textarea>
                     <div class="text-right">
                         <button type="submit" class="btn btn-theme2">Submit Now</button>
                     </div>
